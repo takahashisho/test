@@ -1,0 +1,9 @@
+package com.internousdev.webproj3.dto;
+
+public class InquiryDTO {
+
+	public InquiryDTO() {
+		// TODO 自動生成されたコンストラクター・スタブ
+	}
+
+}

@@ -1,0 +1,9 @@
+package Com.internousdev.webproj4.dto;
+
+public class HelloStrutsDTO {
+
+	public HelloStrutsDTO() {
+		// TODO 自動生成されたコンストラクター・スタブ
+	}
+
+}

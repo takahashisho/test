@@ -2,17 +2,20 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="loginSuccess" key="selection"/>
+		<item value="HelloStrutsAction" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="HelloStrutsAction"/>
+			<item value="LoginAction"/>
+			<item value="com.internousdev.webproj2.action"/>
+			<item value="WelcomeAction"/>
 			<item value="loginSuccess"/>
 			<item value="execute"/>
 			<item value="com.internousdev.login.action"/>
 			<item value="loginError"/>
-			<item value="LoginAction"/>
 		</list>
 		<list key="replacehistory">
 		</list>
@@ -22,6 +25,6 @@
 		<item value="1|メイリオ|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|メイリオ" key="DIALOG_FONT_NAME"/>
 		<item value="411" key="DIALOG_HEIGHT"/>
 		<item value="893" key="DIALOG_X_ORIGIN"/>
-		<item value="292" key="DIALOG_Y_ORIGIN"/>
+		<item value="320" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

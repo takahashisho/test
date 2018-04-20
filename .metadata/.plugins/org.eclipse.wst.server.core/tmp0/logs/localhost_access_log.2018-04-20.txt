@@ -1,0 +1,14 @@
+127.0.0.1 - - [20/Apr/2018:19:13:17 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [20/Apr/2018:19:13:21 +0900] "GET /WebProj3/ HTTP/1.1" 200 732
+0:0:0:0:0:0:0:1 - - [20/Apr/2018:19:13:22 +0900] "POST /WebProj3/HelloStrutsActionj;jsessionid=EC80E7BCE2DC0C70E33CF11E773F3815 HTTP/1.1" 200 3453
+0:0:0:0:0:0:0:1 - - [20/Apr/2018:19:13:27 +0900] "GET /WebProj3/WelcomeAction HTTP/1.1" 200 845
+0:0:0:0:0:0:0:1 - - [20/Apr/2018:19:13:38 +0900] "POST /WebProj3/LoginAction.action HTTP/1.1" 200 148
+0:0:0:0:0:0:0:1 - - [20/Apr/2018:19:13:44 +0900] "POST /WebProj3/LoginAction.action HTTP/1.1" 200 206
+0:0:0:0:0:0:0:1 - - [20/Apr/2018:19:13:47 +0900] "POST /WebProj3/HelloStrutsActionj;jsessionid=EC80E7BCE2DC0C70E33CF11E773F3815 HTTP/1.1" 200 3453
+127.0.0.1 - - [20/Apr/2018:19:37:34 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [20/Apr/2018:19:37:37 +0900] "GET /WebProj3/ HTTP/1.1" 200 2066
+0:0:0:0:0:0:0:1 - - [20/Apr/2018:19:37:55 +0900] "GET /WebProj3/TestAction.action?username=yamada&password=135 HTTP/1.1" 200 205
+0:0:0:0:0:0:0:1 - - [20/Apr/2018:19:38:10 +0900] "POST /WebProj3/TestAction.action HTTP/1.1" 200 205
+0:0:0:0:0:0:0:1 - - [20/Apr/2018:19:38:17 +0900] "POST /WebProj3/InquiryAction.action HTTP/1.1" 200 918
+0:0:0:0:0:0:0:1 - - [20/Apr/2018:19:38:22 +0900] "POST /WebProj3/WelcomeAction.action HTTP/1.1" 200 845
+0:0:0:0:0:0:0:1 - - [20/Apr/2018:19:38:31 +0900] "POST /WebProj3/LoginAction.action HTTP/1.1" 200 150

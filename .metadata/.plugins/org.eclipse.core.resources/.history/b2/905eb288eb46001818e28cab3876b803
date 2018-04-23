@@ -1,0 +1,7 @@
+package com.internousdev.template.action;
+import com.opensymphoy.xwork2.ActionSuppot;
+public class HomeAction extends ActionSupport {
+	public String execute() {
+			return SUCCESS;
+	}
+}

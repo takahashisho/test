@@ -2,4 +2,7 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="com.opensymphony.xwork2.ActionSupport"/>
 <fullyQualifiedTypeName name="org.apache.struts2.interceptor.SessionAware"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="Com.internousdev.webproj4.util.DBConnector"/>
+<fullyQualifiedTypeName name="Com.internousdev.webproj4.dto.HelloStrutsDTO"/>
 </qualifiedTypeNameHistroy>

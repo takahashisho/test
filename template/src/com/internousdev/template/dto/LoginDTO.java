@@ -2,8 +2,32 @@ package com.internousdev.template.dto;
 
 public class LoginDTO {
 
-	public LoginDTO() {
-		// TODO 自動生成されたコンストラクター・スタブ
+	private String loginId;
+	private String lokginPassword;
+	private String userName;
+	private boolean loginFlg =false;
+	public String getLoginId() {
+		return loginId;
 	}
-
+	public void setLoginId(String loginId) {
+		this.loginId = loginId;
+	}
+	public String getLoginPassword() {
+		return loginPassword;
+	}
+	public void setLoginPassword(String loginPassword){
+		this.loginPassword = loginPassword;
+	}
+	public String getUserName() {
+		return userName;
+	}
+	public void setUserName(){
+		this.userName = userName;
+	}
+	public boolean getLoginFlg(){
+		return loginFlg;
+	}
+	public void setLoginFlg(boolean loginFlg){
+		this.loginFlg = loginFlg;
+	}
 }

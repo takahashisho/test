@@ -1,9 +1,0 @@
-package com.internousdev.webproj3.action;
-
-public class HelloStrutsAction {
-
-	public HelloStrutsAction() {
-		// TODO 自動生成されたコンストラクター・スタブ
-	}
-
-}

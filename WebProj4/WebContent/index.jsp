@@ -10,5 +10,8 @@
 	<s:form action="HelloStrutsAction">
 		<s:submit value="HelloStruts"/>
 	</s:form>
+	<form action="WelcomeAction">
+		<s:submit value="Welcome"/>
+	</form>
 </body>
 </html>

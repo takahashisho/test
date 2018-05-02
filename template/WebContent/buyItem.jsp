@@ -64,9 +64,9 @@
 		<s:form action="BuyItemAction">
 			<table>
 				<tr>
-					<tb>
+					<td>
 						<span>商品名</span>
-					</tb>
+					</td>
 					<td>
 						<s:property value="session.buyItem_name" />
 					</td>

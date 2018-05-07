@@ -70,7 +70,7 @@
 						<label>ログインID;</label>
 					</td>
 					<td>
-						<input type="text" name="loginUserID" value="" />
+						<input type="text" name="loginUserId" value="" />
 					</td>
 				</tr>
 				<tr>

@@ -5,4 +5,5 @@
 <fullyQualifiedTypeName name="java.sql.SQLException"/>
 <fullyQualifiedTypeName name="Com.internousdev.webproj4.util.DBConnector"/>
 <fullyQualifiedTypeName name="Com.internousdev.webproj4.dto.HelloStrutsDTO"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
 </qualifiedTypeNameHistroy>

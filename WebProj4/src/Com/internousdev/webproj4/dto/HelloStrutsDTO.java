@@ -1,37 +1,32 @@
 package Com.internousdev.webproj4.dto;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.List;
-
-import Com.internousdev.webproj4.util.DBConnector;
 public class HelloStrutsDTO {
-List<HelloStrutsDTO> helloStrutsDTOList = new ArrayList<HelloStrutsDTO>();
-public List<HelloStrutsDTO> select() {
-DBConnector db = new DBConnector();
-Connection con = db.getConnection();
-String sql = "select * from users";
-try {
-PreparedStatement ps = con.prepareStatement(sql);
-ResultSet rs = ps.executeQuery();
-while(rs.next()) {
-HelloStrutsDTO dto=new HelloStrutsDTO();
-dto.setUserName(rs.getInt("user_id"));
-dto.setUserName(rs.getString("user_name"));
-dto.setPassword(rs.getString("password"));
-dto.setResult("MySQL と接続できます。");
-helloStrutsDTOList.add(dto);
+private int userId;
+private String userName;
+private String password;
+private String result;
+public int getUserId() {
+return userId;
 }
-} catch (SQLException e) {
-e.printStackTrace();
+public void setUserId(int userId) {
+this.userId = userId;
 }
-try {
-con.close();
-} catch (SQLException e) {
-e.printStackTrace();
+public String getUserName() {
+return userName;
 }
-return helloStrutsDTOList;
+public void setUserName(String userName) {
+this.userName = userName;
+}
+public String getPassword() {
+return password;
+}
+public void setPassword(String password) {
+this.password = password;
+}
+
+public String getResult() {
+return result;
+}
+public void setResult(String result) {
+this.result = result;
 }
 }

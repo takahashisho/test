@@ -1,5 +1,4 @@
 package com.internousdev.template.dto;
-
 public class BuyItemDTO {
 	private int id;
 	private String itemName;

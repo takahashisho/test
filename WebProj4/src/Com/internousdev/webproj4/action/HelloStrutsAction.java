@@ -12,6 +12,7 @@ public String execute() {
 String ret=ERROR;
 HelloStrutsDAO dao=new HelloStrutsDAO();
 HelloStrutsDTOList=dao.select();
+
 if(HelloStrutsDTOList.size() > 0){
 ret=SUCCESS;
 }else{
@@ -19,6 +20,7 @@ ret=ERROR;
 }
 return ret;
 }
+
 public List<HelloStrutsDTO> getHelloStrutsDTOList() {
 return HelloStrutsDTOList;
 }

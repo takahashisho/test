@@ -4,13 +4,13 @@
 <!DOCTYPE html">
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta http-equiv="Content-Style-Type" content="text/css" />
 	<meta http-equiv="Content-Script-Type" content="text/javascript" />
 	<meta http-equiv="imagetoolbar" content="no" />
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
-<title>UserCreateCinfirm画面</title>
+<title>UserCreateConfirm画面</title>
 <style type="text/css">
 /* ========TAG LAYOUT======== */
 		body{
@@ -18,7 +18,7 @@
 			padding:0;
 			line-height:1.6;
 			letter-spacing:1px;
-			font-family:Verdana,Helvetica.sans-serif;
+			font-family:Verdana,Helvetica,sans-serif;
 			font-size:12px;
 			color:#333;
 			background:#fff;
@@ -29,7 +29,7 @@
 		}
 		/* ========ID LAYOUT========*/
 		#top{
-		wigth:780px;
+		width:780px;
 		margin:30px auto;
 		border:1px solid #333;
 		}
@@ -47,7 +47,7 @@
 		width:100%;
 		height:80px;
 		background-color:black;
-		clea:both;
+		clear:both;
 		}
 	</style>
 </head>
@@ -60,12 +60,13 @@
 		<div id="top">
 			<p>UserCreateConfirm</p>
 		</div>
+		<div>
 			<h3>登録する内容は以下でよろしいですか。</h3>
 			<table>
-				<s:form action="UserCreateConfirmAction">
+				<s:form action="UserCreateCompleteAction">
 				<tr id="box">
 					<td>
-						<label>ログインID;</label>
+						<label>ログインID:</label>
 					</td>
 					<td>
 						<s:property value="loginUserId" escape="false" />
@@ -73,7 +74,7 @@
 				</tr>
 				<tr id="box">
 					<td>
-						<label>ログインPASS</label>
+						<label>ログインPASS:</label>
 					</td>
 						<td>
 							<s:property value="loginPassword" escape="false" />
@@ -95,6 +96,7 @@
 			</s:form>
 		</table>
 	</div>
+</div>
 	<div id="footer">
 		<div id="pr">
 		</div>

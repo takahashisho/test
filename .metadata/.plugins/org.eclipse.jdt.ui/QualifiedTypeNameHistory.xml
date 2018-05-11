@@ -6,4 +6,5 @@
 <fullyQualifiedTypeName name="Com.internousdev.webproj4.util.DBConnector"/>
 <fullyQualifiedTypeName name="Com.internousdev.webproj4.dto.HelloStrutsDTO"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 </qualifiedTypeNameHistroy>

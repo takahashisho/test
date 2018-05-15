@@ -125,7 +125,7 @@
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
       
-      <Context docBase="C:\Users\testuser\Desktop\workspace\workspace-takahashi\test\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\testuser\Desktop\workspace\workspace-takahashi\test\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\WebProj4" path="/WebProj4" reloadable="true" source="org.eclipse.jst.jee.server:WebProj4"/></Host>
+      <Context docBase="C:\Users\noel\Desktop\work\workspace\workspace-takahashi\test\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\noel\Desktop\work\workspace\workspace-takahashi\test\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\WebProj4" path="/WebProj4" reloadable="true" source="org.eclipse.jst.jee.server:WebProj4"/></Host>
     </Engine>
   </Service>
 </Server>

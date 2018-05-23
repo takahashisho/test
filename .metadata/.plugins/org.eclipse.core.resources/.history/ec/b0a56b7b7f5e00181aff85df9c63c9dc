@@ -1,0 +1,9 @@
+package com.internousdev.webproj5.action;
+
+public class WelcomeAction {
+
+	public WelcomeAction() {
+		// TODO 自動生成されたコンストラクター・スタブ
+	}
+
+}
